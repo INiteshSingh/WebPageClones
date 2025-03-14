@@ -7,26 +7,32 @@ body{
     font-variation-settings:
         "wdth" 100;
 }
-.top-slider{
+.top-slider{ /*for the top purple bar slider*/
     background-color: #8b63e4;
-    height: 20px;
+    height: 100px;
     width: 100%;
-    display: flex;
-    align-items:center;
+    text-align: center;
+    padding:10px 10px;
+}
+.top-nav{
+    margin-top:10px;
+
 }
 .top-slider>.top-slider-text{
     color:white;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: solid;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+   
 }
 .top-ui-ul{
+    position:fixed;
     list-style: none; /* Removes bullet points */
     padding: 0;
-    margin: 0;
     display: flex;
-    margin:0px 15px;
+    margin:10px 20px 20px 
+}
+.sample{
+    margin-top: 10px;;
+    height:100px;
+    width:100px;
+    background-color: #8b63e4;
+    position:fixed;
 }
